@@ -18,6 +18,8 @@
 #define led_C 6
 #define led_B 5
 #define led_A 4
+//bocina
+#define bocina 2
 //variables extras
 boolean valor_led_Verde = LOW;
 boolean valor_boton_Peatonal = LOW;
@@ -51,6 +53,7 @@ int valormap;
           digitalWrite(led_B,HIGH);
           pinMode(led_A,OUTPUT);
           digitalWrite(led_A,HIGH);
+           pinMode(bocina,OUTPUT);
  
     boolean valor_led_VerdePeaton = LOW;
     boolean valor_led_RojoPeaton  = HIGH;
@@ -116,7 +119,9 @@ void loop(){
     digitalWrite(led_C,LOW);
     digitalWrite(led_B,HIGH);
     digitalWrite(led_A,HIGH);
-    //delay(1000);
+    tone(bocina,100,150);
+  digitalWrite(bocina,HIGH);
+  digitalWrite(bocina,LOW);
     delay(500);
     digitalWrite(led_VerdePeaton,LOW);
     delay(500);
@@ -125,7 +130,9 @@ void loop(){
     digitalWrite(led_C,LOW);
     digitalWrite(led_B,HIGH);
     digitalWrite(led_A,LOW);
-    //delay(1000);
+    tone(bocina,100,150);
+  digitalWrite(bocina,HIGH);
+  digitalWrite(bocina,LOW);
     delay(500);
     digitalWrite(led_VerdePeaton,LOW);
     delay(500);
@@ -134,12 +141,17 @@ void loop(){
     digitalWrite(led_C,LOW);
     digitalWrite(led_B,LOW);
     digitalWrite(led_A,HIGH);
-   //delay(1000);
+  tone(bocina,100,150);
+  digitalWrite(bocina,HIGH);
+  digitalWrite(bocina,LOW);
     delay(1000);
     digitalWrite(led_D,LOW);  //0
     digitalWrite(led_C,LOW);
     digitalWrite(led_B,LOW);
     digitalWrite(led_A,LOW);
+    tone(bocina,100,150);
+  digitalWrite(bocina,HIGH);
+  digitalWrite(bocina,LOW);
     delay(500);
     digitalWrite(led_D,HIGH);  //APAGADO
     digitalWrite(led_C,HIGH);
@@ -154,31 +166,49 @@ void loop(){
   digitalWrite(led_C,LOW);
   digitalWrite(led_B,LOW);
   digitalWrite(led_A,HIGH);
+  tone(bocina,100,150);
+  digitalWrite(bocina,HIGH);
+  digitalWrite(bocina,LOW);
   delay(1000);
   digitalWrite(led_D,HIGH);  //8
   digitalWrite(led_C,LOW);
   digitalWrite(led_B,LOW);
   digitalWrite(led_A,LOW);
+  tone(bocina,100,150);
+  digitalWrite(bocina,HIGH);
+  digitalWrite(bocina,LOW);
   delay(1000);  
   digitalWrite(led_D,LOW);  //7
   digitalWrite(led_C,HIGH);
   digitalWrite(led_B,HIGH);
   digitalWrite(led_A,HIGH);
+  tone(bocina,100,150);
+  digitalWrite(bocina,HIGH);
+  digitalWrite(bocina,LOW);
   delay(1000);
   digitalWrite(led_D,LOW);  //6
   digitalWrite(led_C,HIGH);
   digitalWrite(led_B,HIGH);
   digitalWrite(led_A,LOW);
+  tone(bocina,100,150);
+  digitalWrite(bocina,HIGH);
+  digitalWrite(bocina,LOW);
   delay(1000);
   digitalWrite(led_D,LOW);  //5
   digitalWrite(led_C,HIGH);
   digitalWrite(led_B,LOW);
   digitalWrite(led_A,HIGH);
+  tone(bocina,100,150);
+  digitalWrite(bocina,HIGH);
+  digitalWrite(bocina,LOW);
   delay(1000);    
   digitalWrite(led_D,LOW);  //4
   digitalWrite(led_C,HIGH);
   digitalWrite(led_B,LOW);
   digitalWrite(led_A,LOW);
+  tone(bocina,100,150);
+  digitalWrite(bocina,HIGH);
+  digitalWrite(bocina,LOW);
   delay(500);
   
 }
