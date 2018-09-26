@@ -1,7 +1,7 @@
 PROYECTO_SEMAFORO_DE_MEXICO
 ===========================
 
-Sistema alertizador salvaguarda humano-coche
+> ## Sistema alertizador salvaguarda humano-coche
 
 Tarea:
 Realizar un sistema que simule un Semáforo Interactivo usando Arduino. Este debe mostrar un
@@ -23,4 +23,4 @@ vehicular va a durar en verde.
 
 ![whatsapp image 2018-09-14 at 3 26 07 pm 1](https://user-images.githubusercontent.com/43178846/46098164-5d9c3a00-c189-11e8-880d-6914f064eaca.jpeg)
 
-
+> ## contacto : 15240501@itleon.edu.mx
