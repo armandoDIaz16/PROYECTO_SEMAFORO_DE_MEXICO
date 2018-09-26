@@ -1,4 +1,6 @@
- PROYECTO_SEMAFORO_DE_MEXICO
+PROYECTO_SEMAFORO_DE_MEXICO
+===========================
+
 Sistema alertizador salvaguarda humano-coche
 
 Tarea:
